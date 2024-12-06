@@ -1,5 +1,5 @@
 # Menggunakan image Node.js versi 18
-FROM node:18.17.1
+FROM node:18.17.1-alpine
 
 # Menentukan direktori kerja di dalam container
 WORKDIR /app
